@@ -1,0 +1,47 @@
+/* CSS Styling */
+form{
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 75px;
+    width: 100%;
+}
+input[type=text] {
+    padding: 20px 20px 15px 20px;
+    margin-top: 15px;
+    box-sizing: border-box;
+    border: 2px solid green;
+    border-radius: 4px;
+    width: 35%;
+    align-items: center;
+}
+input[type=submit] {
+    background-color: steelblue;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    margin: 4px;
+}
+input[type=submit]:hover{
+    background-color: green;
+}
+h1,header{
+    font-family: helvetica;
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+}
+#foot{
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    align-items: stretch;
+    bottom: 0;
+    background-color: steelblue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+body{
+    width: 100%;
+}

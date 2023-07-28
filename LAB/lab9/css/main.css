@@ -1,0 +1,22 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #cbcc5b;
+    text-align: center;
+    padding-top: 15%;
+}
+h1{
+    font-size: 75px;
+}
+#insertArray{
+    width: 200px;
+    height: 30px;
+    border-radius: 4px;
+    border-color: purple;
+}
+#calculate{
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    border-color: purple;
+    background-color: white;
+}

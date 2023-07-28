@@ -1,0 +1,50 @@
+#changeBackgrd{
+    width: 700px;
+    height: 300px;
+    padding: 20px 20px 20px 20px;
+}
+html{
+    padding: 15px;
+}
+select{
+    color: black;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: pink;
+    text-align: center;
+}
+body{
+    background: lightblue;
+    height: 100vh;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    width: auto;
+    margin: auto;
+    padding: 1%;
+    text-align: left;
+}
+input, button, label{
+    color: black;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: yellow;
+    text-align: center;
+}#foot{
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    align-items: stretch;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}

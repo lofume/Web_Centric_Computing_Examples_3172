@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Lab 1 CSS Styling modified, accessed October 3, 2022 -->
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <header>
+        <h1>Please fill form below</h1>
+    </header>
+    <form name="fillForm">
+        <input type="text" name="fname" placeholder="First Name"><br>
+        <input type="text" name="lname" placeholder="Last Name"><br>
+        <p> Please select a gender:</p><br>
+        <input type="radio" name="gender" value="Non-binary">
+            <label for="gender">Non-Binary</label><br>
+        <input type="radio" name="gender" value="Female">
+            <label for="gender">Female</label><br>
+        <input type="radio" name="gender" value="Male">
+            <label for="gender">Male</label><br>   
+<!-- github country select code modified, https://gist.github.com/danrovito/977bcb97c9c2dfd3398a, 
+            accessed October 3, 2022 -->
+            <p> Please select a country:</p>
+            <select id="country" name="country" class="form-control">
+                <option value="Canada">Canada</option>
+                <option value="Cape Verde">Cape Verde</option>
+                <option value="Cayman Islands">Cayman Islands</option>
+                <option value="Central African Republic">Central African Republic</option>
+                <option value="Luxembourg">Luxembourg</option>
+                <option value="Macao">Macao</option>
+                <option value="Macedonia, The Former Yugoslav Republic of">Macedonia, The Former Yugoslav Republic of</option>
+                <option value="Madagascar">Madagascar</option>
+                <option value="Malawi">Malawi</option>
+                <option value="Nauru">Nauru</option>
+                <option value="Nepal">Nepal</option>
+                <option value="Netherlands">Netherlands</option>
+                <option value="Netherlands Antilles">Netherlands Antilles</option>
+                <option value="New Caledonia">New Caledonia</option>
+                <option value="New Zealand">New Zealand</option>
+                <option value="Nicaragua">Nicaragua</option>
+                <option value="Niger">Niger</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="Niue">Niue</option>
+                <option value="Norfolk Island">Norfolk Island</option>
+                <option value="Northern Mariana Islands">Northern Mariana Islands</option>
+                <option value="Norway">Norway</option>
+                <option value="Uganda">Uganda</option>
+                <option value="Ukraine">Ukraine</option>
+                <option value="United Arab Emirates">United Arab Emirates</option>
+                <option value="United Kingdom">United Kingdom</option>
+                <option value="United States">United States</option>
+                <option value="United States Minor Outlying Islands">United States Minor Outlying Islands</option>
+                <option value="Uruguay">Uruguay</option>
+            </select>
+            <br>
+            <br>
+            <input type="button" onclick="showForm()" value="submit" />
+    </form>
+ <p id="form1"></p>
+ <p id="form2"></p>
+ <p id="form3"></p>
+ <p id="form4"></p>
+    <script type="text/Javascript" src="script/main.js"></script>
+  </body>
+  <footer id="foot">
+    <p>CSCI 3172 Lab 3 - Created by Lynda Ofume, 2022</p> 
+</footer>
+</html>
+
+<!-- (a) preventDefault() cancels the event if it is possible to do so -->
+<!-- (b) you would need to add information into a array that is stored. That would go into Line 2 of the js file -->

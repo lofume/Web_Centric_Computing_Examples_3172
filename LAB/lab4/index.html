@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+  </head>
+  <title> CSCI 3172 - Lab 4 </title>
+  <body>
+    <header>
+        <h1>Select option to change colour</h1>
+    </header>
+    <!-- /* -------------------------- PART A: Switch Case ------------------------------------- */ -->
+    <div id="changeBackgrd" style="border: 1px solid">
+        <select name="bgColor" id="bgColor">
+            <option class="Monday" value="Monday">Monday</option>
+            <option class="Tuesday" value="Tuesday">Tuesday</option>
+            <option class="Wednesday" value="Wednesday">Wednesday</option>
+            <option class="Thursday" value="Thursday">Thursday</option>
+            <option class="Friday" value="Friday">Friday</option>
+            <option class="Saturday" value="Saturday">Saturday</option>
+            <option class="Sunday" value="Sunday">Sunday</option>
+        </select>
+        <button id="button" type="button" onclick="colorFunc()">Change Background</button>
+    </div>
+    <br>
+    <br>
+   <!--  /* -------------------------- PART B: Form Data ------------------------------------- */ -->
+   <h1>Input # below: </h1>
+    <form>
+        <input type="text" id="odd"></input>
+        <input type="button" onclick="getValue()" value="Submit" />
+    </form>
+    <br>
+    <script src="scripts/main.js"></script>
+  </body>
+  <footer id="foot">
+    <p>CSCI 3172 Lab 4 - Created by Lynda Ofume, 2022</p> 
+</footer>
+</html>

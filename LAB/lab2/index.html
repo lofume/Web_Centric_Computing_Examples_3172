@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <h1>CSCI 3172: Lab 2</h1>
+    <h3> View the code contained on this page by opening up the JS Console</h3>
+    <p>(a) The scope of a const is a block scope; this cannot be updated or re-declared into the scope.</p>
+    <p>(b) The let and const keywords were added to Javascript in 2015.</p>
+
+    <script>
+        //calculate area of a circle
+        function calculateArea(r) {
+            return (r * r * 3.14);
+        }
+        const area =calculateArea(6);
+        console.log(area);
+
+        //calculate addition
+        function calcAdd(a,b){
+            let c = a +b;
+            return c;
+        }
+        console.log(calcAdd(10, 12))
+
+        //calculate subtraction
+        function calcSubtract(c,d){
+            let x = c-d;
+            return x;
+        }
+        console.log(calcSubtract(5,2));
+
+        //calculate multiplication
+
+        function calcMultiply(x,y){
+            let w = x*y;
+            return w;
+        }
+        console.log(calcMultiply(4,4));
+
+        //calculate division
+
+        function calcDivide(m,n){
+            let r= (m/n);
+            return r;
+        }
+        console.log(calcDivide(100,5));
+
+        //calculate area of rectangle 
+
+        function calcRectangle (l, w){
+            let value = l * w;
+            return value;
+        }
+        console.log(calcRectangle(20,15));
+
+        // (a) The scope of a const cannot be updated or re-declared. 
+        // (b) The let and const keywords were added to Javascript in 2015.
+     </script>
+</body>
+</html>

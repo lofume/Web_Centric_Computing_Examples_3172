@@ -1,0 +1,48 @@
+body{
+    background: green;
+    height: 100vh;
+}
+form{
+    width: auto;
+    margin: auto;
+    padding: 3%;
+    text-align: center;
+}
+input, button, label{
+    color: black;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: yellow;
+    text-align: center;
+}
+div{
+    display: none;
+    background-color: orange;
+    color: black;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    margin:  6% 3% auto 6%;
+    width: 20%;
+    float: left;
+}
+
+span{
+    padding: 10px;
+    font-size: 18px;
+    margin: 15px;
+}
+#foot{
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    align-items: stretch;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
