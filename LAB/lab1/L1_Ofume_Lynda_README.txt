@@ -8,7 +8,6 @@
 * *Date Created*: 12 SEP 2022
 * *Last Modification Date*: 15 SEP 2022
 * *Lab URL*: <https://web.cs.dal.ca/~ofume/csci3172/lab1/>
-* *Git URL*: <https://git.cs.dal.ca/ofume/b00738568_web_centric_computing_csci3172.git>
 
 ## Authors
 * [Lynda Ofume](Ly863136@dal.ca) - *Developer/Designer*
